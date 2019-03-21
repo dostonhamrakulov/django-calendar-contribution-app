@@ -1,19 +1,31 @@
 from django.shortcuts import render
 import json
 
-posts = [
+months = [
     {
-        'author': 'CoreyMS',
-        'title': 'Blog Post 1',
-        'content': 'First post content',
-        'date_posted': 'August 27, 2018'
+        'month': 'CoreyMS'
     },
     {
-        'author': 'Jane Doe',
-        'title': 'Blog Post 2',
-        'content': 'Second post content',
-        'date_posted': 'August 28, 2018'
-    }
+        'month': 'CoreyMS'
+    },
+    {
+        'month': 'CoreyMS'
+    },
+    {
+        'month': 'CoreyMS'
+    },
+    {
+        'month': 'CoreyMS'
+    },
+    {
+        'month': 'CoreyMS'
+    },
+    {
+        'month': 'CoreyMS'
+    },
+    {
+        'month': 'CoreyMS'
+    },
 ]
 
 
@@ -68,7 +80,7 @@ posts = [
 #         'title':'Deutsch Learnen'
 #     }
 # ]
-months = ["Yanvar", "Fevral", "Mart"]
+# months = ["Yanvar", "Fevral", "Mart"]
 
 with open('calendar_blog/deutsch.json') as f:
     deutsch_json_parsed = json.load(f)
@@ -86,7 +98,6 @@ def about(request):
 
 def calendarr(request):
     context = {
-    'deutsch_json':deutsch_json_parsed["deutsch"],
-    'month':'Yanvar'
+    'january_18':deutsch_json_parsed["deutsch"]
     }
     return render(request, 'calendar_blog/calendar.html', context)
