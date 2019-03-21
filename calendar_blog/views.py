@@ -1,4 +1,5 @@
 from django.shortcuts import render
+import json
 
 posts = [
     {
@@ -16,57 +17,61 @@ posts = [
 ]
 
 
-calendar_post = {
-    {
-        'month': 'January',
-        '1':'green',
-        '2':'green',
-        '3':'green',
-        '4':'green',
-        '5':'green',
-        '6':'green',
-        '7':'green',
-        '8':'green',
-        '9':'green',
-        '10':'green',
-        '12':'green',
-        '13':'green',
-        '14':'green',
-        '15':'green',
-        '16':'green',
-        '17':'green',
-        '18':'green',
-        '19':'green',
-        '20':'green',
-        '21':'green',
-        '22':'green',
-        '23':'green',
-        '24':'green',
-        '25':'green',
-        '26':'green',
-        '27':'green',
-        '28':'green',
-        '29':'green',
-        '30':'green',
-        '31':'green'
+# calendar_post = {
+#     {
+#         'month': 'January',
+#         '1':'green',
+#         '2':'green',
+#         '3':'green',
+#         '4':'green',
+#         '5':'green',
+#         '6':'green',
+#         '7':'green',
+#         '8':'green',
+#         '9':'green',
+#         '10':'green',
+#         '12':'green',
+#         '13':'green',
+#         '14':'green',
+#         '15':'green',
+#         '16':'green',
+#         '17':'green',
+#         '18':'green',
+#         '19':'green',
+#         '20':'green',
+#         '21':'green',
+#         '22':'green',
+#         '23':'green',
+#         '24':'green',
+#         '25':'green',
+#         '26':'green',
+#         '27':'green',
+#         '28':'green',
+#         '29':'green',
+#         '30':'green',
+#         '31':'green'
+#     }
+# }
 
-    }
-}
+# jauary1 = [
+#     {
+#         'month':'January',
+#         'day':'1',
+#         'done':'white',
+#         'hours':'3',
+#     },
+#     {
+#         'month':'January',
+#         'day':'2',
+#         'done':'red',
+#         'hours':'3',
+#         'title':'Deutsch Learnen'
+#     }
+# ]
 
-jauary1 = {
-    {
-        'day':'1',
-        'done':'green',
-        'hours':'3',
-        'title':'Deutsch Learnen'
-    }
-    {
-        'day':'2',
-        'done':'green',
-        'hours':'3',
-        'title':'Deutsch Learnen'
-    }
-}
+with open('calendar_blog/deutsche.json') as f:
+    deutsch_json_parsed = json.load(f)
+
 
 def home(request):
     context = {
@@ -77,3 +82,9 @@ def home(request):
 
 def about(request):
     return render(request, 'calendar_blog/about.html', {'title': 'About'})
+
+def calendarr(request):
+    context = {
+    'jauary1':deutsch_json_parsed["deutsch"]
+    }
+    return render(request, 'calendar_blog/calendar.html', context)
