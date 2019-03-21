@@ -1,0 +1,105 @@
+
+
+
+1. Install django
+2. check version of it:
+	python3 -m django --version
+
+3. creating project:
+	django-admin    --- gives you commands to run and create something
+	django-admin startproject django_project
+
+4. Run the server
+	python3 manage.py runserver
+
+5. Start application
+	python3 manage.py startapp blog  --- (blog is name of app)
+
+6. 
+	python3 manage.py makemigrations
+
+	python3 manage.py migrate
+
+7. Create superuser
+	python3 manage.py createsuperuser
+
+
+8. Create Database
+	python3 manage.py makemigrations
+	python3 manage.py sqlmigrate blog 0003
+
+	BEGIN;
+	--
+	-- Create model Post
+	--
+	CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "date_posted" datetime NOT NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED);
+	CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
+	COMMIT;
+
+	python3 manage.py migrate
+
+
+9. Start python shell - command prompt
+	python3 manage.py shell 
+	
+	from blog.models import Post   --- to import models
+	from contrib.auth.models import User   --- to import users
+
+	Post.objects.all()
+
+	User.objects.all()
+	User.objects.first()
+
+to create post for user doston2509
+	user = User.objects.filter(username='doston2509').first()
+	post_2 = Post(title='Blog 2', content='Second post content', author=user)
+	post_2 = Post(title='Blog 2', content='Second post content', author_id=user.id)
+	post_2.save()
+
+	user.post_set
+	user.post_set.all()  	--- to get all post from the user
+
+	user.post_set.create(title='Blog 3', content='Third Post Content')
+
+10. Users:
+	Username: Testuser
+	Pass: testing321
+
+	username: doston2509
+	pass: Hd356****
+
+	username: CoreyMS
+	Pass: testing321
+	
+	username: Doston or Doston2
+	pass: Test54321
+
+11. User registration page:
+	python3 manage.py startapp users
+
+12. To make form more beautiful with all design, install crispy
+	pip install django-crispy-forms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
