@@ -103,19 +103,22 @@
     <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
     <div class="row">
       <div class="col-sm-3" style="background-color:lavender;">
-        {% block content %}
-            {% for day in jauary1 %}
+          {% block content %}
                 <div class="month">
                   <ul>
                     <li id="month_1">
-                      {{ day.month }}
+                      {{ month}}
                     </li>
                   </ul>
                 </div>
+
+
                 <ul class="days">
-                  <li style="background-color: {{ day.done }};">{{ day.day }}</li>
+                  {% for day in deutsch_json %}
+                  <li style="background-color: {{ day.color }};">{{ day.day }}</li>
+                  {% endfor %}
                 </ul>
-            {% endfor %}
+
         {% endblock content %}
       </div>
       <div class="col-sm-3" style="background-color:yellow;">

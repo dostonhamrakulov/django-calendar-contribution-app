@@ -68,8 +68,9 @@ posts = [
 #         'title':'Deutsch Learnen'
 #     }
 # ]
+months = ["Yanvar", "Fevral", "Mart"]
 
-with open('calendar_blog/deutsche.json') as f:
+with open('calendar_blog/deutsch.json') as f:
     deutsch_json_parsed = json.load(f)
 
 
@@ -85,6 +86,7 @@ def about(request):
 
 def calendarr(request):
     context = {
-    'jauary1':deutsch_json_parsed["deutsch"]
+    'deutsch_json':deutsch_json_parsed["deutsch"],
+    'month':'Yanvar'
     }
     return render(request, 'calendar_blog/calendar.html', context)
