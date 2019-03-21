@@ -16,6 +16,58 @@ posts = [
 ]
 
 
+calendar_post = {
+    {
+        'month': 'January',
+        '1':'green',
+        '2':'green',
+        '3':'green',
+        '4':'green',
+        '5':'green',
+        '6':'green',
+        '7':'green',
+        '8':'green',
+        '9':'green',
+        '10':'green',
+        '12':'green',
+        '13':'green',
+        '14':'green',
+        '15':'green',
+        '16':'green',
+        '17':'green',
+        '18':'green',
+        '19':'green',
+        '20':'green',
+        '21':'green',
+        '22':'green',
+        '23':'green',
+        '24':'green',
+        '25':'green',
+        '26':'green',
+        '27':'green',
+        '28':'green',
+        '29':'green',
+        '30':'green',
+        '31':'green'
+
+    }
+}
+
+jauary1 = {
+    {
+        'day':'1',
+        'done':'green',
+        'hours':'3',
+        'title':'Deutsch Learnen'
+    }
+    {
+        'day':'2',
+        'done':'green',
+        'hours':'3',
+        'title':'Deutsch Learnen'
+    }
+}
+
 def home(request):
     context = {
         'posts': posts
