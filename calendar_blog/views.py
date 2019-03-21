@@ -82,8 +82,11 @@ months = [
 # ]
 # months = ["Yanvar", "Fevral", "Mart"]
 
-with open('calendar_blog/deutsch.json') as f:
-    deutsch_json_parsed = json.load(f)
+with open('calendar_blog/yanvar19_deutsch.json') as f:
+    json_01_ = json.load(f)
+
+with open('calendar_blog/fevral19_deutsch.json') as f:
+    json_02_ = json.load(f)
 
 
 def home(request):
@@ -98,6 +101,7 @@ def about(request):
 
 def calendarr(request):
     context = {
-    'january_18':deutsch_json_parsed["deutsch"]
+    'january_19':json_01_["deutsch"],
+    'fevral_19':json_02_["deutsch"]
     }
     return render(request, 'calendar_blog/calendar.html', context)

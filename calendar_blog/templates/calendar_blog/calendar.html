@@ -110,8 +110,49 @@
           </ul>
         </div>
         <ul class="days">
+          {% for day in january_19 %}
+          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+
+      <div class="col-sm-3" style="background-color:lavender;">
+        <div class="month">
+          <ul>
+            <li id="month_1">Fevral</li>
+          </ul>
+        </div>
+        <ul class="days">
+          {% for day in fevral_19 %}
+          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+
+      <div class="col-sm-3" style="background-color:lavender;">
+        <div class="month">
+          <ul>
+            <li id="month_1">Mart</li>
+          </ul>
+        </div>
+        <ul class="days">
           {% for day in january_18 %}
-          <li style="background-color: {{ day.color }};">{{ day.day }}</li>
+          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-sm-3" style="background-color:lavender;">
+        <div class="month">
+          <ul>
+            <li id="month_1">April</li>
+          </ul>
+        </div>
+        <ul class="days">
+          {% for day in january_18 %}
+          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
           {% endfor %}
         </ul>
       </div>
