@@ -1,179 +1,169 @@
 {% extends "calendar_blog/base.html" %}
-  {% block content %}
-  <div class="container">
-    <div class="row">
-
-      <div class="col-sm-3" style="background-color:lavender;">
+{% block content %}
+<div class="row">
+    <div class="col-sm-3">
         <div class="month">
-          <ul>
-            <li id="month_1">Yanvar</li>
-          </ul>
+            <ul>
+                <li id="month_1">Yanvar</li>
+            </ul>
         </div>
         <ul class="days">
-          {% for day in january_19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
+            {% for day in january_19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
         </ul>
-      </div>
-
-
-      <div class="col-sm-3" style="background-color:lavender;">
+    </div>
+    <div class="col-sm-3">
         <div class="month">
-          <ul>
-            <li id="month_1">Fevral</li>
-          </ul>
+            <ul>
+                <li id="month_1">Fevral</li>
+            </ul>
         </div>
         <ul class="days">
-          {% for day in fevral_19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
+            {% for day in fevral_19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
         </ul>
-      </div>
-
-
-      <div class="col-sm-3" style="background-color:lavender;">
+    </div>
+    <div class="col-sm-3">
         <div class="month">
-          <ul>
-            <li id="month_1">Mart</li>
-          </ul>
+            <ul>
+                <li id="month_1">Mart</li>
+            </ul>
         </div>
         <ul class="days">
-          {% for day in mart19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
+            {% for day in mart19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
         </ul>
-      </div>
-
-      <div class="col-sm-3" style="background-color:lavender;">
+    </div>
+    <div class="col-sm-3">
         <div class="month">
-          <ul>
-            <li id="month_1">April</li>
-          </ul>
+            <ul>
+                <li id="month_1">April</li>
+            </ul>
         </div>
         <ul class="days">
-          {% for day in april19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
+            {% for day in april19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
         </ul>
-      </div>
+    </div>
 
+</div>
+
+
+<div class="row">
+
+    <div class="col-sm-3">
+        <div class="month">
+            <ul>
+                <li id="month_1">May</li>
+            </ul>
+        </div>
+        <ul class="days">
+            {% for day in may19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
+        </ul>
     </div>
 
 
-    <div class="row">
-
-      <div class="col-sm-3" style="background-color:lavender;">
+    <div class="col-sm-3">
         <div class="month">
-          <ul>
-            <li id="month_1">May</li>
-          </ul>
+            <ul>
+                <li id="month_1">Iyun</li>
+            </ul>
         </div>
         <ul class="days">
-          {% for day in may19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
+            {% for day in iyun19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
         </ul>
-      </div>
-
-
-      <div class="col-sm-3" style="background-color:lavender;">
-        <div class="month">
-          <ul>
-            <li id="month_1">Iyun</li>
-          </ul>
-        </div>
-        <ul class="days">
-          {% for day in iyun19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
-
-      <div class="col-sm-3" style="background-color:lavender;">
-        <div class="month">
-          <ul>
-            <li id="month_1">Iyul</li>
-          </ul>
-        </div>
-        <ul class="days">
-          {% for day in iyul19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="col-sm-3" style="background-color:lavender;">
-        <div class="month">
-          <ul>
-            <li id="month_1">Avgust</li>
-          </ul>
-        </div>
-        <ul class="days">
-          {% for day in avgust19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
     </div>
 
 
-
-    <div class="row">
-
-      <div class="col-sm-3" style="background-color:lavender;">
+    <div class="col-sm-3">
         <div class="month">
-          <ul>
-            <li id="month_1">Sentabr</li>
-          </ul>
+            <ul>
+                <li id="month_1">Iyul</li>
+            </ul>
         </div>
         <ul class="days">
-          {% for day in sentabr19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
+            {% for day in iyul19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
         </ul>
-      </div>
-
-
-      <div class="col-sm-3" style="background-color:lavender;">
-        <div class="month">
-          <ul>
-            <li id="month_1">Oktyabr</li>
-          </ul>
-        </div>
-        <ul class="days">
-          {% for day in oktabr19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
-
-      <div class="col-sm-3" style="background-color:lavender;">
-        <div class="month">
-          <ul>
-            <li id="month_1">Noyabr</li>
-          </ul>
-        </div>
-        <ul class="days">
-          {% for day in noyabr19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="col-sm-3" style="background-color:lavender;">
-        <div class="month">
-          <ul>
-            <li id="month_1">Dekabr</li>
-          </ul>
-        </div>
-        <ul class="days">
-          {% for day in dekabr19 %}
-          <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
-          {% endfor %}
-        </ul>
-      </div>
     </div>
-  {% endblock content %}
+
+    <div class="col-sm-3">
+        <div class="month">
+            <ul>
+                <li id="month_1">Avgust</li>
+            </ul>
+        </div>
+        <ul class="days">
+            {% for day in avgust19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</div>
+
+
+
+<div class="row">
+    <div class="col-sm-3">
+        <div class="month">
+            <ul>
+                <li id="month_1">Sentabr</li>
+            </ul>
+        </div>
+        <ul class="days">
+            {% for day in sentabr19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-sm-3">
+        <div class="month">
+            <ul>
+                <li id="month_1">Oktyabr</li>
+            </ul>
+        </div>
+        <ul class="days">
+            {% for day in oktabr19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+
+    <div class="col-sm-3">
+        <div class="month">
+            <ul>
+                <li id="month_1">Noyabr</li>
+            </ul>
+        </div>
+        <ul class="days">
+            {% for day in noyabr19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="col-sm-3">
+        <div class="month">
+            <ul>
+                <li id="month_1">Dekabr</li>
+            </ul>
+        </div>
+        <ul class="days">
+            {% for day in dekabr19 %}
+            <li style="background-color: {{ day.done }}; color:{{ day.color}}">{{ day.day }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock content %}

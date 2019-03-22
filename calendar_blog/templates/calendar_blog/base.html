@@ -15,7 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- <link rel="stylesheet" href="style.css"> -->
 
-    <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'calendar_blog/main.css' %}">
 
     {% if title %}
         <title>Django Blog - {{ title }}</title>
@@ -25,21 +25,9 @@
 
 
     <style>
-      * {
-        box-sizing: border-box;
-      }
 
       ul {
         list-style-type: none;
-      }
-
-      body {
-        font-family: Verdana, sans-serif;
-      }
-
-
-      .row {
-        margin-top: 20px;
       }
 
       .month {
@@ -83,29 +71,6 @@
         background: #1abc9c;
         color: white !important
       }
-
-      /* Add media queries for smaller screens */
-      @media screen and (max-width:720px) {
-        .days li {
-          width: 10.1%;
-        }
-      }
-
-      @media screen and (max-width: 420px) {
-        .days li {
-          width: 8.5%;
-        }
-
-        .days li .active {
-          padding: 2px;
-        }
-      }
-
-      @media screen and (max-width: 290px) {
-        .days li {
-          width: 7.2%;
-        }
-      }
     </style>
 </head>
 <body>
@@ -134,7 +99,10 @@
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-9">
-          {% block content %}{% endblock %}
+          <div class="content-section">
+            {% block content %}{% endblock %}
+          </div>
+
         </div>
         <div class="col-md-3">
           <div class="content-section">
