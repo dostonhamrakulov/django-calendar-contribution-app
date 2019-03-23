@@ -84,5 +84,5 @@ def calendarr(request):
 def contact(request):
     return render(request, 'calendar_blog/contact.html', {'title': 'Contact'})
 
-def source-code(request):
-    return render(request, 'calendar_blog/source-code.html', {'title': 'Contact'})    
+def source_code(request):
+    return render(request, 'calendar_blog/source_code.html', {'title': 'Contact'})    
