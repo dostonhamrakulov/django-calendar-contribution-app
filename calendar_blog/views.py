@@ -80,3 +80,9 @@ def calendarr(request):
     'dekabr19':json_12_["deutsch"]
     }
     return render(request, 'calendar_blog/calendar.html', context)
+
+def contact(request):
+    return render(request, 'calendar_blog/contact.html', {'title': 'Contact'})
+
+def source-code(request):
+    return render(request, 'calendar_blog/source-code.html', {'title': 'Contact'})    
