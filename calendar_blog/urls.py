@@ -8,3 +8,6 @@ urlpatterns = [
     path('contact/', views.contact, name='blog-contact'),
     path('source_code/', views.source_code, name='blog-source_code'),
 ]
+
+
+# bu urls larni o'zgartirish kerak

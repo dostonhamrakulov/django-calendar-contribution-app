@@ -110,3 +110,7 @@ def contact(request):
 
 def source_code(request):
     return render(request, 'calendar_blog/source_code.html', {'title': 'Contact'})
+
+
+
+# this yerdan    
