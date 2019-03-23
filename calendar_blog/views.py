@@ -3,13 +3,37 @@ import json
 
 posts = [
     {
-        'author': 'CoreyMS',
+        'author': 'Doston Hamrakulov',
         'title': 'Blog Post 1',
         'content': 'First post content',
         'date_posted': 'August 27, 2018'
     },
     {
-        'author': 'Jane Doe',
+        'author': 'Bucky Rober',
+        'title': 'Blog Post 2',
+        'content': 'Second post content',
+        'date_posted': 'August 28, 2018'
+    },
+    {
+        'author': 'Bucky Rober',
+        'title': 'Blog Post 2',
+        'content': 'Second post content',
+        'date_posted': 'August 28, 2018'
+    },
+    {
+        'author': 'Doston H',
+        'title': 'Blog Post 2',
+        'content': 'Second post content',
+        'date_posted': 'August 28, 2016'
+    },
+    {
+        'author': 'D Hamrakulov',
+        'title': 'Blog Post 2',
+        'content': 'Second post content',
+        'date_posted': 'August 28, 2013'
+    },
+    {
+        'author': 'Bucky Rober',
         'title': 'Blog Post 2',
         'content': 'Second post content',
         'date_posted': 'August 28, 2018'
@@ -85,4 +109,4 @@ def contact(request):
     return render(request, 'calendar_blog/contact.html', {'title': 'Contact'})
 
 def source_code(request):
-    return render(request, 'calendar_blog/source_code.html', {'title': 'Contact'})    
+    return render(request, 'calendar_blog/source_code.html', {'title': 'Contact'})
