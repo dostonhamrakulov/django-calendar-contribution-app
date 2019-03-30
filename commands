@@ -1,7 +1,14 @@
+I use python3
 
+Requirements: 
+	- django
+	- pip3
+	- python3
+	- 
 
 
 1. Install django
+	
 2. check version of it:
 	python3 -m django --version
 
@@ -79,6 +86,12 @@ to create post for user doston2509
 
 12. To make form more beautiful with all design, install crispy
 	pip install django-crispy-forms
+
+
+Commands for Uploading into heroku:
+	- heroku create project-name
+
+
 
 
 
