@@ -2,7 +2,7 @@
 
 posts = [
     {
-    "month":"Yanvar",
+    "month":"February",
     "day":"1",
     "done":"green",
     "hours":"3",
