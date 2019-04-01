@@ -1,6 +1,6 @@
 
 
-posts = [
+months = [
     {
     "month":"Yanvar",
     "day":"1",
