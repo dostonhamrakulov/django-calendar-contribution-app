@@ -2,11 +2,11 @@
 
 months = [
 	    {
-	    "month":"April",
+	    "month":"Noyabr",
 	    "day":"1",
 	    "done":"green",
 	    "hours":"3",
-	    "title":"Deutsch Learnen",
+	    "title":"Vaqtinchalik nom",
 	    "color":"white", "new2":"value2", "new2":"value2"
 	    },
 	    {
@@ -14,7 +14,7 @@ months = [
 	    "day":"2",
 	    "done":"green",
 	    "hours":"3",
-	    "title":"Deutsch Learnen",
+	    "title":"Vaqtinchalik nom",
 	    "color":"white", "new2":"value2"
 	    },
         {
@@ -22,7 +22,7 @@ months = [
             "day":"3",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -30,7 +30,7 @@ months = [
             "day":"4",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -38,7 +38,7 @@ months = [
             "day":"5",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -46,7 +46,7 @@ months = [
             "day":"6",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -54,7 +54,7 @@ months = [
             "day":"7",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -62,7 +62,7 @@ months = [
             "day":"8",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -70,7 +70,7 @@ months = [
             "day":"9",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -78,7 +78,7 @@ months = [
             "day":"10",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -86,7 +86,7 @@ months = [
             "day":"11",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -94,7 +94,7 @@ months = [
             "day":"12",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -102,7 +102,7 @@ months = [
             "day":"13",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -110,7 +110,7 @@ months = [
             "day":"14",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -118,7 +118,7 @@ months = [
             "day":"15",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -126,7 +126,7 @@ months = [
             "day":"16",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -134,7 +134,7 @@ months = [
             "day":"17",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -142,7 +142,7 @@ months = [
             "day":"18",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -150,7 +150,7 @@ months = [
             "day":"19",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -158,7 +158,7 @@ months = [
             "day":"20",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -166,7 +166,7 @@ months = [
             "day":"21",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -174,7 +174,7 @@ months = [
             "day":"22",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -182,7 +182,7 @@ months = [
             "day":"23",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -190,7 +190,7 @@ months = [
             "day":"24",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -198,7 +198,7 @@ months = [
             "day":"25",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -206,7 +206,7 @@ months = [
             "day":"26",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -214,7 +214,7 @@ months = [
             "day":"27",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
 
@@ -223,7 +223,7 @@ months = [
             "day":"28",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -231,7 +231,7 @@ months = [
             "day":"29",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         },
         {
@@ -239,7 +239,7 @@ months = [
             "day":"30",
             "done":"grey",
             "hours":"3",
-            "title":"Deutsch Learnen",
+            "title":"Vaqtinchalik nom",
             "color":"black", "new2":"value2"
         }
 ]
